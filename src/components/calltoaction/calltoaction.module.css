@@ -1,0 +1,40 @@
+.CallTo {
+    background: #191d2c;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+.ctaWrapper{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:3rem;
+}
+
+.welcomeCta{
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+.btnApreendaIn{
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 500;
+    background: linear-gradient(90deg,#05c7f2,#6c69f7);
+}
+.btnApreendaIn:hover{
+    background: #fff;
+    color: black;
+    transition: 0.7s all;
+}
+
+/* / Menu mobile */
+@media (max-width:600px) {
+    .reactImg{
+        margin: 1rem;
+        padding: 10px;
+    }
+}

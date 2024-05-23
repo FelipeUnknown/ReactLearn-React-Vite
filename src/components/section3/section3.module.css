@@ -1,0 +1,61 @@
+.section3{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.section3Wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.TextS3 {
+  color: white;
+}
+
+.TextS3 h2 {
+  font-size: 40px;
+}
+
+.TextS3 p {
+  padding: 25px;
+  color: #a8a8b3;
+}
+
+.buttonPaiS3 {
+  display: flex;
+  justify-content: center;
+
+}
+
+.buttonC {
+  padding: 10px;
+  margin: 10px;
+  background: linear-gradient(89.85deg, #05c7f2 -0.8%, #6c69f7 98.5%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 130px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.buttonC:hover {
+  background: #fff;
+  color: black;
+  transition: 0.7s all;
+}
+
+.imagensGrid {
+  padding-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+@media (max-width: 600px) {
+
+  .section3Wrapper {
+    flex-direction: column;
+  }
+  .imagensGrid {
+    flex-direction: column;
+  }
+}

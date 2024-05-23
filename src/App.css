@@ -1,0 +1,31 @@
+:root{
+  --color-white:#fff;
+  --color-black:black;
+  --color-blue:#05C7F2;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#1A1D28;
+  font-family: sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+

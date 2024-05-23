@@ -1,0 +1,100 @@
+.Hero{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.HeroWrapper{
+    padding: 4rem 1rem;
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.HeroTxt{
+    color: white;
+}
+
+.HeroTxt h1{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+
+.HeroTxt p{
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.HeroTxt span{
+    font-weight: 700;
+}
+
+.buttonPai{
+    display: flex;
+}
+
+.buttonA{
+    padding: 10px;
+    margin: 10px;
+    background: linear-gradient(89.85deg, #05C7F2 -0.8%, #6C69F7 98.5%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 130px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.buttonA:hover{ 
+    background: #fff;
+    color: black;
+    transition: 0.7s all;
+}
+
+.buttonD{
+    padding: 10px;
+    margin: 10px;
+   background-color:  #181B26;
+    color: white;
+    border: 2px solid #ffff ;
+    border-radius: 10px;
+    width: 130px;
+    font-weight: 700;
+    cursor: pointer
+}
+
+.buttonD:hover{
+    background-color: #ffff ;
+    color: #000000;
+    transition: 0.7s all;
+}
+
+
+ .imggg {
+    will-change: filter;
+    transition: filter .3s
+}
+
+ @keyframes imgg {
+    0% {
+        transform: rotate(0)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .imggg {
+        animation: imgg infinite 20s linear;
+    }
+}  
